@@ -7,7 +7,6 @@ class AiCommitMessage < Formula
 
   def install
     bin.install "shell/ai-commit-message"
-    chmod(0755, "bin/ai-commit-message")
   end
 
   # `brew test ai-commit-message`
