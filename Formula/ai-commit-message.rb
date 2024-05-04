@@ -1,6 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class AiCommitMessage < Formula
   desc "Generate git commit message from file changes using ChatGPT"
   homepage "https://github.com/n-ngm/tools"
@@ -10,7 +7,7 @@ class AiCommitMessage < Formula
 
   def install
     bin.install "shell/ai-commit-message"
-    chmod 0755, bin/ai-commit-message
+    chmod(0755, "bin/ai-commit-message")
   end
 
   # `brew test ai-commit-message`
