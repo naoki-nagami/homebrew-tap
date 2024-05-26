@@ -1,12 +1,12 @@
 class AiCommitMessage < Formula
   desc "Generate git commit message from file changes using ChatGPT"
   homepage "https://github.com/n-ngm/tools"
-  url "https://github.com/n-ngm/tools/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "b4daf44a28ad2d97c5a04c2c571aebe3eb25903bf9fea82c776ce768938ac03b"
+  url "https://github.com/n-ngm/tools/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "ed80bf8c8ffd733e0641cce2e580d35ab7b422e1f48940447696965d1c0d45a0"
   license "MIT"
 
   def install
-    bin.install "shell/ai-commit-message"
+    bin.install "ai-commit-message/ai-commit-message"
   end
 
   # `brew test ai-commit-message`
